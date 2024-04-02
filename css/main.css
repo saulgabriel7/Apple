@@ -1,0 +1,513 @@
+.header{
+    width: 100%;
+    height: 35px;
+
+    position: fixed;
+    top: 0;
+
+    background-color: rgba(14, 14, 14, 0.849);
+    backdrop-filter: blur(20px);
+}
+
+.nav-link img{
+    width: 0.75rem;
+    
+}
+
+.na-search img{
+    width: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.na-bag img{
+    width: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.header-container{
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 6px;
+    padding-inline: 45px;
+}
+
+.nav-list-desktop{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: var(--gray);
+    display: block;
+    padding: 5px,10px;
+    font-size: 10px;
+    transition: 0.5s ease;
+}
+
+.nav-link :hover{
+    opacity: 0.7;
+}
+
+.iphone14{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white);
+}
+
+.container-iphone14{
+    max-width: 820px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container-title-iphone14 h1{
+    color: var(--black);
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+.container-title-iphone14 h3{
+    color: var(--black);
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container-title-iphone14 h4{
+    color: var(--black);
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.container-title-iphone14 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px, 0px ;
+}
+
+.container-img-iphone14 img{
+    width: 360px;
+}
+
+.link{
+    display: block;
+    color: var(--blue);
+    position: relative;
+    margin-right: 1rem;
+}
+
+.link::after{
+    padding-inline: 16px;
+}
+
+.link:hover{
+    text-decoration: underline ;
+}
+
+
+.iphone14pro{
+    width: 100%;
+    margin-top: -75px;
+    padding-top: 8vh;
+    margin: 5px, 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+.container-img-iphone14pro img{
+    width: 560px;
+    padding-top: 1rem;
+}
+
+.container-iphone14pro{
+    max-width: 820px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-title-iphone14pro h1{
+    color: var(--white);
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+.container-title-iphone14pro h3{
+    color: var(--white);
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container-title-iphone14pro h4{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.container-title-iphone14pro p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px, 0px ;
+}
+
+
+.iphone14pro, .airpods{
+    margin-bottom: 10px;
+}
+
+.airpods{
+    width: 100%;
+    padding-top: 5vh;
+    margin: 5px, 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+.container-img-airpods img{
+    width: 730px;
+}
+
+.container-img-airpods{
+    max-width: 820px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-title-airpods h1{
+    color: var(--white);
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+.container-title-airpods h3{
+    color: var(--white);
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container-title-airpods h4{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.container-title-airpods p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px, 0px ;
+}
+
+
+.watch{
+    width: 100%;
+    padding-inline: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-watch h1{
+    height: 70px;
+    background-image: url(../img/watch\ ultra.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center center;
+}
+
+
+.container-watch{
+    flex: 1 1 380px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-title-watch h3{
+    color: var(--black);
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.container-title-watch h4{
+    color: var(--black);
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container-title-watch p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px, 0px ;
+    margin-top: 0.5rem;
+    font-size: 12px;
+}
+
+.container-img-watch img{
+    width: 580px;
+    
+}
+
+.container-watch8 h1{
+    height: 70px;
+    background-image: url(../img/watch\ series\ 8_.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center center;
+}
+
+.container-watch8{
+    flex: 1 1 380px;
+    margin: 0, 5px;
+    padding-top: 10px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-title-watch8 h3{
+    color: var(--white);
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.container-title-watch8 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px, 0px ;
+    font-size: 12px;
+}
+
+.container-img-watch8 img{
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-watch, .container-watch8{
+    margin-inline: 0.5rem;
+}
+
+.fit{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+}
+
+.container-fit h1{
+    height: 70px;
+    background-image: url(../img/fit+.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center center;
+}
+
+.container-fit{
+    flex: 1 1 380px;
+    margin: 0, 5px;
+    padding-top: 30px;
+    background-color: var(--white);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-title-fit h3{
+    color: var(--black);
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.container-title-fit p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px, 0px ;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+}
+
+.container-img-fit img{
+    width: 100%;
+}
+
+.container-img-fit{
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container-watse h1{
+    height: 70px;
+    background-image: url(../img/watch\ se.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center center;
+}
+
+.container-watse{
+    flex: 1 1 380px;
+    margin: 0, 5px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-title-watse h3{
+    color: var(--black);
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.container-title-watse p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px, 0px ;
+    font-size: 14px;
+}
+
+.container-img-watse img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img-watse{
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.music{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.75rem;
+}
+
+.container-music{
+    flex: 1 1 380px;
+    margin: 0, 5px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-img-music{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-img-music img{
+    width: 100%;
+}
+
+.container-tv{
+    flex: 1 1 380px;
+    margin: 0, 5px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-img-tv img{
+    width: 100%;
+}
+
+.container-img-tv{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-tv, .container-music{
+    padding-inline: 0.5rem;
+}
+
+.creditos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color:rgb(249, 245, 245);
+}
+
+.container-creditos p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    font-size: 9px;
+    color: grey;
+}
+
+.pequeno p{
+    justify-content: left;
+}
+
+.container-creditos img{
+    width: 70%;
+    height: 70vh;
+    margin-left: 12rem;
+    margin-top: 0.5rem;
+}
